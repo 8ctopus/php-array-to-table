@@ -43,7 +43,11 @@ $data = [
     ],
 ];
 
-echo (new ArrayToTable($data))
+$options = [
+    'table-classes' => '',
+];
+
+echo (new ArrayToTable($data, $options))
     ->render();
 
 echo <<<'HTML'

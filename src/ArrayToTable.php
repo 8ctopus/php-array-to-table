@@ -7,18 +7,18 @@ namespace Oct8pus\ArrayToTable;
 class ArrayToTable
 {
     private array $data;
-    private ?array $format;
+    private ?array $options;
 
     /**
      * Constructor
      *
      * @param array $data
-     * @param ?array $format
+     * @param array $options
      */
-    public function __construct(array $data, ?array $format = null)
+    public function __construct(array $data, ?array $options = [])
     {
         $this->data = $data;
-        $this->format = $format;
+        $this->options = $options;
     }
 
     /**
@@ -46,17 +46,19 @@ class ArrayToTable
      */
     private function renderHeader() : string
     {
-        $result = <<<'TABLE'
-        <table class="table table-striped">
+        $classes = array_key_exists('table-classes', $this->options) ? (' ' . $this->options['table-classes']) : '';
+
+        $result = <<<TABLE
+        <table class="table{$classes}">
         <thead>
           <tr>
 
         TABLE;
 
-        $columns = array_keys($this->data);
+        $columns = array_keys($this->data[0]);
 
         foreach ($columns as $column) {
-            $result .= "      <th scope=\"col\">{$column}</th>\n";
+            $result .= "    <th scope=\"col\">{$column}</th>\n";
         }
 
         $result .= <<<'TABLE'
