@@ -48,7 +48,7 @@ echo (new ArrayToTable($data))
     ->render();
 ```
 
-```html
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.3/css/bootstrap.min.css" integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <table class="table table-striped">
 <thead>
   <tr>
@@ -84,7 +84,6 @@ echo (new ArrayToTable($data))
   </tr>
 </tbody>
 </table>
-```
 
 ## tests
 
