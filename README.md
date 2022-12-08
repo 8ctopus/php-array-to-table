@@ -1,6 +1,6 @@
 # php array to bootstrap table
 
-Convert php array to bootstrap 5 table
+Convert php array to [Twitter bootstrap](https://getbootstrap.com/) 5 table.
 
 [![Latest Stable Version](http://poser.pugx.org/8ctopus/array-to-table/v)](https://packagist.org/packages/8ctopus/array-to-table) [![Total Downloads](http://poser.pugx.org/8ctopus/array-to-table/downloads)](https://packagist.org/packages/8ctopus/array-to-table) [![License](http://poser.pugx.org/8ctopus/array-to-table/license)](https://packagist.org/packages/8ctopus/array-to-table) [![PHP Version Require](http://poser.pugx.org/8ctopus/array-to-table/require/php)](https://packagist.org/packages/8ctopus/array-to-table)
 
