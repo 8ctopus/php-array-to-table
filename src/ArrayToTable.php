@@ -15,7 +15,7 @@ class ArrayToTable
      * @param array $data
      * @param array $options
      */
-    public function __construct(array $data, ?array $options = [])
+    public function __construct(array $data, array $options = [])
     {
         $this->data = $data;
         $this->options = $options;

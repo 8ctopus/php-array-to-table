@@ -6,12 +6,25 @@ namespace Oct8pus\ArrayToTable;
 
 use PHPUnit\Framework\TestCase;
 
-class ArrayToTableTest extends TestCase
+/**
+ * @internal
+ *
+ * @covers \Oct8pus\ArrayToTable\ArrayToTable
+ */
+final class ArrayToTableTest extends TestCase
 {
+    public function testNoData() : void
+    {
+        $table = (new ArrayToTable([]))
+            ->render();
+
+        $this->assertEquals('', $table);
+    }
+
     /**
      * Test rendering table
      */
-    public function testRender() : void
+    public function testBasic() : void
     {
         // set up test data
         $data = [
@@ -38,11 +51,8 @@ class ArrayToTableTest extends TestCase
             'table-classes' => 'table-striped table-bordered'
         ];
 
-        // Initialize ArrayToTable object
-        $arrayToTable = new ArrayToTable($data, $options);
-
-        // Render table
-        $result = $arrayToTable->render();
+        $table = (new ArrayToTable($data, $options))
+            ->render();
 
         // Assert that the result matches the expected output
         $expected = <<<'EXPECTED'
@@ -79,6 +89,6 @@ class ArrayToTableTest extends TestCase
 
         EXPECTED;
 
-        $this->assertEquals($expected, $result);
+        $this->assertEquals($expected, $table);
     }
 }
