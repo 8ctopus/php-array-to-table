@@ -49,12 +49,15 @@ echo (new ArrayToTable($data))
 ```
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.3/css/bootstrap.min.css" integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<table class="table table-striped">
+<table class="table ">
 <thead>
   <tr>
-      <th scope="col">0</th>
-      <th scope="col">1</th>
-      <th scope="col">2</th>
+    <th scope="col">id</th>
+    <th scope="col">firstName</th>
+    <th scope="col">transactionId</th>
+    <th scope="col">refunded</th>
+    <th scope="col">purchaseDate</th>
+    <th scope="col">expiryDate</th>
   </tr>
 </thead>
 <tbody>
