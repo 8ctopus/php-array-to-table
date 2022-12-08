@@ -48,7 +48,7 @@ final class ArrayToTableTest extends TestCase
 
         // set up table options
         $options = [
-            'table-classes' => 'table-striped table-bordered'
+            'table-classes' => 'table-striped table-bordered',
         ];
 
         $table = (new ArrayToTable($data, $options))
