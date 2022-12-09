@@ -44,7 +44,7 @@ $data = [
 ];
 
 $options = [
-    'table-classes' => '',
+    'table-classes' => 'table-dark table-striped table-bordered table-hover',
 ];
 
 echo (new ArrayToTable($data, $options))
@@ -54,4 +54,5 @@ echo <<<'HTML'
 </div>
 </body>
 </html>
+
 HTML;
