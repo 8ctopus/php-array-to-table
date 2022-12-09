@@ -48,7 +48,7 @@ echo (new ArrayToTable($data))
     ->render();
 ```
 
-<table class="table ">
+<table class="table">
 <thead>
   <tr>
     <th scope="col">id</th>
@@ -86,6 +86,8 @@ echo (new ArrayToTable($data))
   </tr>
 </tbody>
 </table>
+
+You can also check the example `demo.php`.
 
 ## tests
 
