@@ -1,8 +1,14 @@
 # php array to bootstrap table
 
-Convert php array to [Twitter bootstrap](https://getbootstrap.com/) 5 table.
+[![packagist](http://poser.pugx.org/8ctopus/array-to-table/v)](https://packagist.org/packages/8ctopus/array-to-table)
+[![downloads](http://poser.pugx.org/8ctopus/array-to-table/downloads)](https://packagist.org/packages/8ctopus/array-to-table)
+[![min php version](http://poser.pugx.org/8ctopus/array-to-table/require/php)](https://packagist.org/packages/8ctopus/array-to-table)
+[![license](http://poser.pugx.org/8ctopus/array-to-table/license)](https://packagist.org/packages/8ctopus/array-to-table)
+[![tests](https://github.com/8ctopus/array-to-table/actions/workflows/tests.yml/badge.svg)](https://github.com/8ctopus/array-to-table/actions/workflows/tests.yml)
+![code coverage badge](https://raw.githubusercontent.com/8ctopus/array-to-table/image-data/coverage.svg)
+![lines of code](https://raw.githubusercontent.com/8ctopus/array-to-table/image-data/lines.svg)
 
-[![Latest Stable Version](http://poser.pugx.org/8ctopus/array-to-table/v)](https://packagist.org/packages/8ctopus/array-to-table) [![Total Downloads](http://poser.pugx.org/8ctopus/array-to-table/downloads)](https://packagist.org/packages/8ctopus/array-to-table) [![License](http://poser.pugx.org/8ctopus/array-to-table/license)](https://packagist.org/packages/8ctopus/array-to-table) [![PHP Version Require](http://poser.pugx.org/8ctopus/array-to-table/require/php)](https://packagist.org/packages/8ctopus/array-to-table)
+Convert php array to [Twitter bootstrap](https://getbootstrap.com/) 5 table.
 
 ## install and demo
 
