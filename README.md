@@ -4,9 +4,9 @@
 [![downloads](http://poser.pugx.org/8ctopus/array-to-table/downloads)](https://packagist.org/packages/8ctopus/array-to-table)
 [![min php version](http://poser.pugx.org/8ctopus/array-to-table/require/php)](https://packagist.org/packages/8ctopus/array-to-table)
 [![license](http://poser.pugx.org/8ctopus/array-to-table/license)](https://packagist.org/packages/8ctopus/array-to-table)
-[![tests](https://github.com/8ctopus/array-to-table/actions/workflows/tests.yml/badge.svg)](https://github.com/8ctopus/array-to-table/actions/workflows/tests.yml)
-![code coverage badge](https://raw.githubusercontent.com/8ctopus/array-to-table/image-data/coverage.svg)
-![lines of code](https://raw.githubusercontent.com/8ctopus/array-to-table/image-data/lines.svg)
+[![tests](https://github.com/8ctopus/php-array-to-table/actions/workflows/tests.yml/badge.svg)](https://github.com/8ctopus/php-array-to-table/actions/workflows/tests.yml)
+![code coverage badge](https://raw.githubusercontent.com/8ctopus/php-array-to-table/image-data/coverage.svg)
+![lines of code](https://raw.githubusercontent.com/8ctopus/php-array-to-table/image-data/lines.svg)
 
 Convert php array to [Twitter bootstrap](https://getbootstrap.com/) 5 table.
 
