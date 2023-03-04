@@ -91,12 +91,8 @@ You can also check the example `demo.php`.
 
 ## tests
 
-```sh
-vendor/bin/phpunit --coverage-html coverage
-```
+    composer test
 
 ## clean code
 
-```sh
-vendor/bin/php-cs-fixer fix
-```
+    composer fix(-risky)
