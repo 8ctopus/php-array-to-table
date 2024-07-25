@@ -1,9 +1,9 @@
 # php array to bootstrap table
 
-[![packagist](http://poser.pugx.org/8ctopus/array-to-table/v)](https://packagist.org/packages/8ctopus/array-to-table)
-[![downloads](http://poser.pugx.org/8ctopus/array-to-table/downloads)](https://packagist.org/packages/8ctopus/array-to-table)
-[![min php version](http://poser.pugx.org/8ctopus/array-to-table/require/php)](https://packagist.org/packages/8ctopus/array-to-table)
-[![license](http://poser.pugx.org/8ctopus/array-to-table/license)](https://packagist.org/packages/8ctopus/array-to-table)
+[![packagist](https://poser.pugx.org/8ctopus/array-to-table/v)](https://packagist.org/packages/8ctopus/array-to-table)
+[![downloads](https://poser.pugx.org/8ctopus/array-to-table/downloads)](https://packagist.org/packages/8ctopus/array-to-table)
+[![min php version](https://poser.pugx.org/8ctopus/array-to-table/require/php)](https://packagist.org/packages/8ctopus/array-to-table)
+[![license](https://poser.pugx.org/8ctopus/array-to-table/license)](https://packagist.org/packages/8ctopus/array-to-table)
 [![tests](https://github.com/8ctopus/php-array-to-table/actions/workflows/tests.yml/badge.svg)](https://github.com/8ctopus/php-array-to-table/actions/workflows/tests.yml)
 ![code coverage badge](https://raw.githubusercontent.com/8ctopus/php-array-to-table/image-data/coverage.svg)
 ![lines of code](https://raw.githubusercontent.com/8ctopus/php-array-to-table/image-data/lines.svg)
