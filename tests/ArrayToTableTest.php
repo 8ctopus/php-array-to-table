@@ -92,3 +92,4 @@ final class ArrayToTableTest extends TestCase
         $this->assertEquals($expected, $table);
     }
 }
+
